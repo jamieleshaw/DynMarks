@@ -1,0 +1,18 @@
+{  
+  "manifest_version":2,
+  "name":"DynMarks",
+  "description":"Dynamically updating bookmarks that change to the last page you visited within a domain's namespace.",
+  "version":"1.0",
+  "author":"LK-",
+  "permissions":[  
+    "tabs",
+    "bookmarks"
+  ],
+  "background":{  
+    "scripts":[  
+      "eventPage.js",
+      "purl.js"
+    ],
+    "persistent":false
+  }
+}
